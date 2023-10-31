@@ -1,0 +1,282 @@
+/* Resetování výchozího stylu prohlížeče */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Základní styly pro tělo a fonty */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+    
+}
+
+#logo {
+  width: 20%;
+}
+
+/* Styly pro header a navigaci */
+#flex {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+/* Styly pro hero sekci */
+#hero {
+    
+    background-size: cover;
+    color:black;
+    text-align: center;
+    padding: 4% 0;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#hero .karta img{
+  width: 80%;
+  
+}
+
+.cta-button {
+    background-color: #5a4aaa;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ff3300;
+}
+
+/* Styly pro ostatní sekce a footer */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.vertical{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    width: 1000px;
+    position: fixed;
+    top: 20%;
+    bottom: 20%;
+  }
+  .horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*pozadi pro cely radek*/
+    background-color: #333;
+    border-radius: 50px;
+    
+    
+  }
+  .vertical-item{
+    max-width: 10%;
+    background-color: #333;
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+  .horizontal-item {
+    display: inline;
+    float: left;
+    font-family: verdana;
+    /* border-right: 1px solid #bbb; za ukol*/ 
+  }
+  .vertical-item a:hover {
+    background-color: red;
+    border-radius: 20px;
+  }
+  .vertical-item  a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  a {
+    display: block; /*zobrazi jako block*/
+    padding: 8px;
+  }
+  .horizontal-item  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: verdana;
+  }
+  .horizontal-item  a:hover {
+    background-color: red;
+  }
+  
+  .mainmenubtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #333;
+    border: none;
+  }
+  .mainmenubtn:hover {
+      background-color: red;
+      border-radius: 50px;
+  }
+  .dropdown {
+      position: absolute;
+      display: inline-block;
+  
+  }
+  .dropdown-child {
+      display: none;
+      background-color: #111;
+      max-width: 100%;
+  }
+  .dropdown-child a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      display: block;
+      border-radius: 50px;
+  }
+  .dropdown:hover .dropdown-child {
+      display: inline-block;
+      border-radius: 20px;
+  }
+  
+  
+  nav {
+    position: fixed;
+    width: 98%;
+    top: 0;
+    right: 1%;
+    left: 1%;
+  }
+
+  #rightside2 {
+    display: none;
+  }
+  
+  header {
+    margin-top: 5vh;
+  }
+  
+  #posr {
+    margin-right: 200px;
+    float: right;
+  }
+  
+  #posr2 {
+    margin-right: 100px;
+    float: right;
+  }
+  /* toto sou karty bojovníků*/
+  .karta {
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 5px;
+    border-color: #111;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 20%;
+    background-color: #55208e;
+    margin-left: 10%;
+    background-image: linear-gradient(rgb(171, 49, 49), rgb(44, 44, 168));
+    color: aliceblue;
+  }
+
+  .karta ul {
+    list-style-type: none;
+  }
+
+/*registrace*/
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 0;
+    text-align: center;
+}
+
+form h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+ 
+
+
+
+  @media only screen and (max-width: 600px) {
+  #posr {
+    margin-right: 30%;
+  }
+  #rightside {
+    display: none;
+  }
+  
+  #rightside2 {
+    display: inline;
+  }
+
+
+}
