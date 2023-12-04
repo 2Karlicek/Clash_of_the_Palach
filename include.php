@@ -16,7 +16,7 @@
         <div  class="horizontal-item dropdown">
           <button class="mainmenubtn">...</button>
         <div  class="horizontal-item dropdown-child">
-          <a href="vsadit.php">Chci si vsadit</a>
+          <a href="chcisivsadit.php">Chci si vsadit</a>
           <a href="zapasy.php">Zápasy</a>
           <a href="zebricek.php">Žebříček</a>
           <a href="misto.php">Kde nás najdete</a>
