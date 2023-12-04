@@ -15,7 +15,7 @@
         }
 
         body {
-            background: linear-gradient(to bottom, blue, purple); /* Lineární přechod z modré do fialové */
+            background: linear-gradient(to bottom, #A1303A, #2E2CA5); /* Lineární přechod z modré do fialové */
             height: 100vh; /* Nastavení výšky stránky na celou výšku viewportu */
             margin: 0; /* Resetování okrajů */
         }
