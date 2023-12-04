@@ -13,6 +13,13 @@
             margin-top: 50px; /* Vertikální odsazení textu od horního okraje */
             font-weight: bold; /* Tučné písmo */
         }
+
+        body {
+            background: linear-gradient(to bottom, blue, purple); /* Lineární přechod z modré do fialové */
+            height: 100vh; /* Nastavení výšky stránky na celou výšku viewportu */
+            margin: 0; /* Resetování okrajů */
+        }
+
     </style>
 </head>
 <body>        
