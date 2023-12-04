@@ -7,6 +7,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<?php
+
+include "include.php";
+?>
     <p>Peníze na vsazení posílejte na účet: 670100-2221128998/6210</p>
     <p>O Vaše peníze bude dobře postaráno.</p>
 </body>

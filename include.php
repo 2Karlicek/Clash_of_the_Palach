@@ -3,7 +3,7 @@
       <div id="rightside">
       <li class="horizontal-item"><a href="gop.php">Úvod</a></li>
       <li class="horizontal-item"><a href="bojovnici.php">Naši bojovníci</a></li>
-      <li class="horizontal-item"><a href="vsadit.php">Chci si vsadit</a></li>
+      <li class="horizontal-item"><a href="chcisivsadit.php">Chci si vsadit</a></li>
       <li class="horizontal-item"><a href="zapasy.php">Zápasy</a></li>
       <li class="horizontal-item"><a href="zebricek.php">Žebříček</a></li>
       <li class="horizontal-item"><a href="misto.php">Kde nás najdete</a></li>
